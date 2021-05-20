@@ -8,11 +8,15 @@ Authors@R:
            email = "abreums@protonmail.com",
            comment = c(ORCID = "0000-0003-4772-7955"))
 Description: this package is for my personal use only.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/Abreums/alaska
 BugReports: https://github.com/Abreums/alaska/issues
+Imports: 
+    broom,
+    dplyr,
+    magrittr,
+    rlang
